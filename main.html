@@ -8,7 +8,16 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <style>
         .navebar{
-          background-color: #e90303;
+          background-color: #000000;
+        }
+        .b{
+          color: #FFFFFF;
+        }
+        body{
+          background-image: url("/images/background.jpeg");
+          background-position: bottom right;
+          background-repeat: no-repeat;
+          background-attachment: fixed;
         }
     </style>    
     <title>Menú principal</title>
@@ -16,29 +25,44 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark navebar">
         <a class="navbar-brand">
-            <img src="http://static.wikia.nocookie.net/fireemblem/images/b/b6/Heroes_Maria_Sprite_%285%2A%29.png" width="30" height="30" alt="icon">
+          <img class="d-inline-block align-top" src="/images/Lenovologo.jpg" width="180" height="60" alt="icon">
         </a>
+      <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <h3 class="b">Notebook Assembly line</h3>
+          </li>
+        </ul>    
+      </div>
     </nav>
-    <div style="margin-left: 5%; margin-right: 5%;">
+    <div class="row">
+    <div class="col-1">
+      <button type="button">Scan</button>
+      <button type="button">Notebook Line</button>
+    </div>
+    <div class="col-8">
+      <div style="margin-left: 5%; margin-right: 5%;">
 
-        <div class="card-body">
-        <h1>Asistencia</h1>
-    </div>      
-    <div class="row carrusel justify-content-center">
+          <div class="card-body">
+          <h1 class="b">Asistencia</h1>
+      </div>      
+      <div class="row carrusel justify-content-center">
 
-        <div class="col-4">
-          <div class="card">
-            <div class="card-body" style="text-align: center;">
-              <img class="card-img-top crop" src="https://media.canalnet.tv/2020/06/perri9-412x414.png" alt="Card image cap">
+          <div class="col-4">
+            <div class="card">
+              <div class="card-body" style="text-align: center;">
+                <!--<img class="card-img-top crop" src="/images/Thinkpadlogo.jpeg" alt="Card image cap">-->
+              </div>
             </div>
           </div>
-        </div>
       
-        <div class="col-8">
-          <h1>Nombre: Empleado 1</h1>
-          <h5 class="text-muted">Especialista en:</h5>
-          <h6 class="text-muted">Estos son habilidades comunes de área</h6>
-        </div>
-    </div>    
+          <div class="col-8">
+            <h1 class="b">Nombre: Empleado 1</h1>
+            <h5 class="b">Especialista en:</h5>
+            <h6 class="b">Estos son habilidades comunes de área</h6>
+          </div>
+      </div>    
+    </div>
+    </div>
 </body>
 </html>
